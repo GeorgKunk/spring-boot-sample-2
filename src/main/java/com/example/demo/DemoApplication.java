@@ -13,7 +13,7 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	public String home() {
-		log.info("I'm logging sth here!")
+		log.info("I'm logging sth here!");
 		return "Hello Docker World (Java Spring Web by mogenius)";
 	}
 
